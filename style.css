@@ -58,11 +58,6 @@ header {
   opacity: 1;
 }
 
-header.hidden {
-  transform: translateY(-5em);
-  opacity: 0;
-}
-
 header .logo {
   flex-grow: 1;
   padding-top: 0.25em;
@@ -84,10 +79,10 @@ header nav {
   color: #fff;
   text-decoration: none;
   padding: 5px;
+  border-radius: 5px;
 }
 .nav-item a:hover {
   color: #202b47;
-  border-radius: 5px;
   background-color: #fff;
   box-shadow: #d3d3d3;
 }
@@ -171,14 +166,8 @@ section h2:after {
 #about #aboutmockup {
   flex: 2;
   align-self: flex-end;
-  transform: translateX(500px);
-  opacity: 0;
-  transition: all 1s ease-in-out;
 }
-#about.active #aboutmockup {
-  transform: translateX(0px);
-  opacity: 1;
-}
+
 #about img {
   display: block;
   width: 100%;
@@ -206,13 +195,7 @@ section h2:after {
     flex: 0 0 33%;
   }
 }
-#staff .staff-profile {
-  transition: background-color 0.3s;
-}
-#staff .staff-profile:hover {
-  color: #fff;
-  background-color: #f39c12;
-}
+
 #staff .staff-profile .headshot {
   height: 5em;
   width: 5em;

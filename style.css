@@ -53,9 +53,6 @@ header {
   background-color: rgba(37, 37, 37, 0.8);
   border-radius: 0 0 1em 1em;
   z-index: 2;
-  transition: all 0.5s;
-  transform: translateY(0);
-  opacity: 1;
 }
 
 header .logo {
@@ -132,16 +129,11 @@ section h2:after {
 #carousel #carousel-text {
   position: absolute;
   top: 45vh;
-  opacity: 0;
   color: #fff;
   text-shadow: 2px 2px #252525;
   z-index: 1;
-  transition: all 1.5s ease-out;
 }
-#carousel.active #carousel-text {
-  top: 35vh;
-  opacity: 1;
-}
+
 #carousel .carousel-image {
   position: absolute;
   display: block;

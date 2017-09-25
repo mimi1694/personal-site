@@ -141,7 +141,6 @@ section h2:after {
   min-width: 100%;
   height: 100%;
   opacity: 1;
-  transition: opacity 1.5s;
 }
 
 #carousel .carousel-image.hidden {

@@ -16,6 +16,7 @@ p {
 
 h1 {
   font-size: 3em;
+  margin: 0;
 }
 
 h2 {
@@ -49,14 +50,14 @@ img {
 
 header {
   display: flex;
-  position: fixed;
-  margin: 0 4em;
+  position: relative;
+  margin: 0;
   padding: 10px;
-  width: calc(100vw - 8em);
+  width: 100vw;
   color: #fff;
   background-color: rgba(37, 37, 37, 0.8);
   border-radius: 0 0 1em 1em;
-  z-index: 2;
+  z-index: 1;
 }
 
 header .logo {
@@ -69,7 +70,9 @@ header .logo img {
 header nav {
   display: flex;
 }
-
+.padder {
+  margin: 20px;
+}
 .nav-item {
   height: 1.5em;
   margin: 0 1.5em 0 0;
@@ -157,10 +160,12 @@ section h2:after {
 }
 #about p {
   flex: 3;
+  padding-left: 2em; 
 }
 #about #aboutmockup {
-  flex: 2;
+  flex: 4;
   align-self: flex-end;
+  padding-bottom: 2em;
 }
 
 #about img {
@@ -176,9 +181,14 @@ section h2:after {
 #staff .wrap {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+#staff .padder {
+  margin-top: 12em;
 }
 #staff .staff-profile {
   flex: 0 0 100%;
+  padding: 1em;
 }
 @media (min-width: 600px) {
   #staff .staff-profile {
@@ -207,6 +217,11 @@ section h2:after {
   text-align: center;
   font-style: italic;
 }
+#staff .staff-profile .portfolio-pics {
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+}
 
 .footer {
   width: 100vw;
@@ -214,3 +229,4 @@ section h2:after {
   background-color: #252525;
   color: #fff;
 }
+

@@ -174,50 +174,50 @@ section h2:after {
   height: auto;
 }
 
-#staff {
+#portfolio {
   height: 100%;
   color: #252525;
 }
-#staff .wrap {
+#portfolio .wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-#staff .padder {
+#portfolio .padder {
   margin-top: 12em;
 }
-#staff .staff-profile {
+#portfolio .portfolio-profile {
   flex: 0 0 100%;
   padding: 1em;
 }
 @media (min-width: 600px) {
-  #staff .staff-profile {
+  #portfolio .portfolio-profile {
     flex: 0 0 50%;
   }
 }
 @media (min-width: 960px) {
-  #staff .staff-profile {
+  #portfolio .portfolio-profile {
     flex: 0 0 33%;
   }
 }
 
-#staff .staff-profile .headshot {
+#portfolio .portfolio-profile .headshot {
   height: 5em;
   width: 5em;
   margin-left: calc(50% - 2.5em);
   padding-top: 10px;
 }
-#staff .staff-profile .staff-name {
+#portfolio .portfolio-profile .portfolio-name {
   text-align: center;
   font-size: 2em;
 }
-#staff .staff-profile .staff-bio {
+#portfolio .portfolio-profile .portfolio-bio {
   width: calc(100% - 5em);
   margin-left: 2.5em;
   text-align: center;
   font-style: italic;
 }
-#staff .staff-profile .portfolio-pics {
+#portfolio .portfolio-profile .portfolio-pics {
   border-width: 1px;
   border-style: solid;
   border-color: lightgray;

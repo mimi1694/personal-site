@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <title>Mimi Scott</title>
   <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee|Playfair+Display|Roboto" rel="stylesheet">  
   <link rel="stylesheet" href="style.css"></link>
@@ -11,6 +12,7 @@
 </head>
 
 <body>
+  <div id="top"></div>
 
   <header>
     <div class="logo">
@@ -18,30 +20,48 @@
     </div>
     <nav>
       <div class="nav-item">
-        <a href="#">About</a>
+        <a href="#portfolio">Work</a>
+      </div>
+      <div class="nav-item">
+          <a href="#about">About</a>
       </div>
     </nav>
   </header>
   
+
   <section id="portfolio">
+      <h2>Work</h2>
     <div class="wrap">
       <div class="portfolio-profile">
-        <img class="portfolio-pics" src="images/Squawk-opening.png"></img>
+          <img class="portfolio-pics" src="images/Squawk-opening.png"></img>
         <h3 class="portfolio-name">Squawk</h3>
         <p class="portfolio-bio">A game to play with friends - one player sends out a video and the rest add their own voice overs!
         </p>
+        <div class="portfolio-link">
+          <a href="https://squawk-868c7.firebaseapp.com/">Play</a>
+          <a href="https://github.com/Squawk-Game">GitHub</a>
+        </div>
       </div>
+
       <div class="portfolio-profile">
         <img class="portfolio-pics" src="images/Zennify-opening.png"></img>
         <h3 class="portfolio-name">Zennify</h3>
         <p class="portfolio-bio">A Chrome Extension to help manage your time at work and keep up with mindfulness practices.
         </p>
+        <div class="portfolio-link">
+            <a href="https://github.com/mimi1694/zenn">GitHub</a>
+          </div>
       </div>
+
       <div class="portfolio-profile">
         <img class="portfolio-pics" src="images/bouncing-shapes-opening.png"></img>
         <h3 class="portfolio-name">Bouncing Shapes</h3>
         <p class="portfolio-bio">An app that allows users to manipulate a Three.js object, with an accompanying post on how it was built.
         </p>
+        <div class="portfolio-link">
+            <a href="http://bouncing-shapes.herokuapp.com/">Play</a>
+            <a href="https://medium.com/@mimiscott94/bouncing-shapes-a-three-js-tutorial-a867688c72a">Tutorial</a>
+          </div>
       </div>
 
       <div class="portfolio-profile">
@@ -49,7 +69,12 @@
         <h3 class="portfolio-name">Beanie Baby DreamLand</h3>
         <p class="portfolio-bio">An e-commerce store where users can peruse, review and purchase beanie babies.
         </p>
+        <div class="portfolio-link">
+            <a href="https://beanie-baby-store.herokuapp.com/">Site</a>
+            <a href="https://github.com/BeanieBabyDreamLand">GitHub</a>
+          </div>
       </div>
+
     </div>
   </section>
 
@@ -59,10 +84,19 @@
       <div id="aboutmockup">
           <img src="images/about-pic.jpeg" alt="App mockup" />
       </div>
+      <div class="about-me">
+        
+      </div>
       <p>
         Mimi Scott is JavaScript developer from New Jersey currently living in New York City. She has a BA in Computer Science from Hobart and William Smith Colleges, and loves to spend her free time hiking in Maine.  Mimi is a student in the Grace Hopper Program at Fullstack Academy, and is looking forward to an exciting career as a web developer!        
+        </br></br>
+        For further information on Fullstack Academy and the Grace Hopper program, check out their <a href=#https://www.gracehopper.com/?__hstc=159901986.eaf449438182dd6c15470ebb2cb02a3f.1517407628005.1518633824496.1519402703905.5&__hssc=159901986.1.1519402703905&__hsfp=3836321370>site.</a>
+        </br> </br></br></br>
+        Contact:
+        </br></br>
+        <a href="github.com/mimi1694">GitHub</a>
+        <a href="linkedin.com/in/mimiscott">LinkedIn</a>
       </p>
-      
     </div>
   </section>
 
